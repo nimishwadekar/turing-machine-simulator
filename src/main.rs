@@ -11,7 +11,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>>
 
     vm::interpret(code).expect("Execution unsuccessful");
 
-    println!("\n******************************************\n");
+    println!("\n\n******************************************\n");
 
     Ok(())
 }
